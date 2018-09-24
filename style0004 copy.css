@@ -1,0 +1,6 @@
+
+/* comment in css is different than html */
+body {background-color: darkgrey}
+body {background-image: url('https://vientodelmar.com/wp-content/uploads/2014/04/Siargao-kitesurfing-viento-del-mar-siargao-resort-and-kite-school-800x600.jpg')}
+h1 {color: green}
+img {width:122px;height:92px;border:0;}
