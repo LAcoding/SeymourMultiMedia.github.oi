@@ -310,24 +310,46 @@ nav img {
 
 /* About section*/
 
-.about{
-	padding: 30px 30px;
-	color: #fff;
-	/*border: 10px black solid;*/
-	margin-bottom: 0px;
-	margin-top: 8px;
-	/*border-style: double;*/
-}
-
-.about h2{
+.abouttitle{
 	text-align: center;
 	margin-bottom: 1rem;
+	color: #fff;
+	padding-top: 25px;
 }
 
-.about h4{
+
+.about{
+	/*padding: 30px 30px;
+	color: #fff;*/
+	/*..........border: 10px black solid;*/
+	/*margin-bottom: 0px;
+	margin-top: 8px;*/
+	/*..........border-style: double;*/
+}
+
+.about{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding-top: 0px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.aboutd3{
+	padding: 30px;
 	text-align: center;
+}
+
+/*.about h2{
+	text-align: center;
+	margin-bottom: 1rem;
+}*/
+
+.about h4{
+	text-align: left;
 	font-weight: normal;
 	line-height: 23px;
+	color: #fff;
 }
 
 /* ------------------------------------------------- */
